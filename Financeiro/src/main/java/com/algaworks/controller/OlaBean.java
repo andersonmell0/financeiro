@@ -1,4 +1,4 @@
-package com.algaworks.beans;
+package com.algaworks.controller;
 
 import javax.faces.bean.ManagedBean;
 

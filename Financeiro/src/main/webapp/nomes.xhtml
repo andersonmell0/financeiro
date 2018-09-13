@@ -8,9 +8,10 @@
 </h:head>
 <h:body>
 	<h:form>
-		Nome: <h:inputText value="#{nomes.nome}"/>
+		Nome: <h:inputText value="#{nomes.nome}"  />
 		<br/>
-		<h:commandButton value="Adicionar" action="#{nomes.adicionar}"></h:commandButton>
+		<h:commandButton value="Adicionar" action="#{nomes.adicionar}" />
+		<br/>
 		<ol>
 			<ui:repeat var="nome" value="#{nomes.nomes}">
 				<li>#{nome}</li>
